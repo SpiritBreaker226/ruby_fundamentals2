@@ -13,3 +13,5 @@ students = {
 display_student(students)
 
 students[:cohort4] = 43
+
+puts students.keys
