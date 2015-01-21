@@ -9,3 +9,5 @@ display_food_array(grocery_list)
 grocery_list << "rice"
 
 display_food_array(grocery_list)
+
+puts "Number of Groceries on the list: #{grocery_list.count}"
