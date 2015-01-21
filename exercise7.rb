@@ -11,3 +11,5 @@ students = {
 }
 
 display_student(students)
+
+students[:cohort4] = 43
