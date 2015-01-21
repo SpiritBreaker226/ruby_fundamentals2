@@ -21,3 +21,7 @@ display_student(students)
 
 students.delete(:cohort2)
 display_student(students)
+
+total_number_students = 0
+students.each { |cohort, number_students| total_number_students += number_students }
+puts "There are #{total_number_students} students that want to the cohorts"
