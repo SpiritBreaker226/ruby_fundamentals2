@@ -18,3 +18,6 @@ puts students.keys
 
 students.update(students) { |cohort, number_students| ((number_students * 0.05) + number_students).to_i }
 display_student(students)
+
+students.delete(:cohort2)
+display_student(students)
